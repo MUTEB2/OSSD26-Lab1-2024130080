@@ -6,4 +6,4 @@ def parse_number(text):
 
 
 def format_result(value):
-    return "Result = " + str(value)
+    return "Result = {:.2f}".format(value)
